@@ -1,4 +1,9 @@
 import './Testimonials.css';
+import danielImage from '../assets/image-daniel.jpg'
+import jonathanImage from '../assets/image-jonathan.jpg'
+import jeanetteImage from '../assets/image-jeanette.jpg'
+import patrickImage from '../assets/image-patrick.jpg'
+import kiraImage from '../assets/image-kira.jpg'
 
 function Testimonials() {
     return (
@@ -6,8 +11,11 @@ function Testimonials() {
             <section class="testimonials">
                 <article class="testimonial">
                     <div class="testimonial__header">
-                        <h3 class="testimonial__name">Daniel Clifford</h3>
-                        <span class="testimonial__status">Verified Graduate</span>
+                        <img class="testimonial__image" src={danielImage} alt="Daniel Image" />
+                        <div className="testimonial-info">
+                            <h3 class="testimonial__name">Daniel Clifford</h3>
+                            <span class="testimonial__status">Verified Graduate</span>
+                        </div>
                     </div>
                     <h4 class="testimonial__title">
                         I received a job offer mid-course, and the subjects I learned were current, if not more so,
@@ -24,8 +32,11 @@ function Testimonials() {
 
                 <article class="testimonial">
                     <div class="testimonial__header">
-                        <h3 class="testimonial__name">Jonathan Walters</h3>
-                        <span class="testimonial__status">Verified Graduate</span>
+                        <img class="testimonial__image" src={jonathanImage} alt="Jonathan Image" />
+                        <div className="testimonial-info">
+                            <h3 class="testimonial__name">Jonathan Walters</h3>
+                            <span class="testimonial__status">Verified Graduate</span>
+                        </div>
                     </div>
                     <h4 class="testimonial__title">
                         The team was very supportive and kept me motivated
@@ -38,8 +49,11 @@ function Testimonials() {
 
                 <article class="testimonial">
                     <div class="testimonial__header">
-                        <h3 class="testimonial__name">Jeanette Harmon</h3>
-                        <span class="testimonial__status">Verified Graduate</span>
+                        <img class="testimonial__image" src={jeanetteImage} alt="Jeanette Image" />
+                        <div className="testimonial-info">
+                            <h3 class="testimonial__name">Jeanette Harmon</h3>
+                            <span class="testimonial__status">Verified Graduate</span>
+                        </div>
                     </div>
                     <h4 class="testimonial__title">
                         An overall wonderful and rewarding experience
@@ -52,8 +66,11 @@ function Testimonials() {
 
                 <article class="testimonial">
                     <div class="testimonial__header">
-                        <h3 class="testimonial__name">Patrick Abrams</h3>
-                        <span class="testimonial__status">Verified Graduate</span>
+                        <img class="testimonial__image" src={patrickImage} alt="Patrick Image" />
+                        <div className="testimonial-info">
+                            <h3 class="testimonial__name">Patrick Abrams</h3>
+                            <span class="testimonial__status">Verified Graduate</span>
+                        </div>
                     </div>
                     <h4 class="testimonial__title">
                         Awesome teaching support from TAs who did the bootcamp themselves. Getting guidance from them and
@@ -69,8 +86,11 @@ function Testimonials() {
 
                 <article class="testimonial">
                     <div class="testimonial__header">
-                        <h3 class="testimonial__name">Kira Whittle</h3>
-                        <span class="testimonial__status">Verified Graduate</span>
+                        <img class="testimonial__image" src={kiraImage} alt="Kira Image" />
+                        <div className="testimonial-info">
+                            <h3 class="testimonial__name">Kira Whittle</h3>
+                            <span class="testimonial__status">Verified Graduate</span>
+                        </div>
                     </div>
                     <h4 class="testimonial__title">
                         Such a life-changing experience. Highly recommended!

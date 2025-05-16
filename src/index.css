@@ -23,7 +23,6 @@
 
 body {
   font-family: "Barlow Semi Condensed", sans-serif;
-  background-color: var(--grey-100);
   display: flex;
   justify-content: center;
   align-items: start;
