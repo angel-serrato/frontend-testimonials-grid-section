@@ -9,7 +9,7 @@ function Testimonials() {
     return (
         <>
             <section class="testimonials">
-                <article class="testimonial">
+                <article class="testimonial testimonial__daniel">
                     <div class="testimonial__header">
                         <img class="testimonial__image" src={danielImage} alt="Daniel Image" />
                         <div className="testimonial-info">
@@ -30,7 +30,7 @@ function Testimonials() {
                     </blockquote>
                 </article>
 
-                <article class="testimonial">
+                <article class="testimonial testimonial__jonathan">
                     <div class="testimonial__header">
                         <img class="testimonial__image" src={jonathanImage} alt="Jonathan Image" />
                         <div className="testimonial-info">
@@ -47,7 +47,7 @@ function Testimonials() {
                     </blockquote>
                 </article>
 
-                <article class="testimonial">
+                <article class="testimonial testimonial__jeanette">
                     <div class="testimonial__header">
                         <img class="testimonial__image" src={jeanetteImage} alt="Jeanette Image" />
                         <div className="testimonial-info">
@@ -64,7 +64,7 @@ function Testimonials() {
                     </blockquote>
                 </article>
 
-                <article class="testimonial">
+                <article class="testimonial testimonial__patrick">
                     <div class="testimonial__header">
                         <img class="testimonial__image" src={patrickImage} alt="Patrick Image" />
                         <div className="testimonial-info">
@@ -84,7 +84,7 @@ function Testimonials() {
                     </blockquote>
                 </article>
 
-                <article class="testimonial">
+                <article class="testimonial testimonial__kira">
                     <div class="testimonial__header">
                         <img class="testimonial__image" src={kiraImage} alt="Kira Image" />
                         <div className="testimonial-info">

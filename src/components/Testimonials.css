@@ -7,8 +7,6 @@
 }
 
 .testimonial {
-    background-color: var(--purple-500);
-    color: var(--white);
     padding: 30px;
     box-shadow: rgba(0, 0, 0, 0.2) 0px 60px 40px -7px;
     border-radius: 12px;
@@ -35,13 +33,11 @@
     font-size: var(--text-sm);
     font-weight: 500;
     margin: 0;
-    color: var(--purple-300);
 }
 
 .testimonial__status {
     font-size: var(--text-xs);
     font-weight: 500;
-    color: var(--purple-300);
 }
 
 .testimonial__title {
@@ -54,8 +50,101 @@
 .testimonial__quote {
     font-size: var(--text-sm);
     font-weight: 500;
-    color: var(--purple-300);
     margin: 0;
+}
+
+.testimonial__daniel {
+    background-color: var(--purple-500);
+    color: var(--white);
+}
+
+.testimonial__daniel .testimonial__name {
+    color: var(--purple-50);
+}
+
+.testimonial__daniel .testimonial__status {
+    color: var(--purple-300);
+}
+
+.testimonial__daniel .testimonial__quote {
+    color: var(--purple-300);
+}
+
+.testimonial__jonathan {
+    background-color: var(--grey-500);
+    color: var(--white);
+}
+
+.testimonial__jonathan .testimonial__name {
+    color: var(--grey-100);
+}
+
+.testimonial__jonathan .testimonial__status {
+    color: var(--grey-200);
+}
+
+.testimonial__jonathan .testimonial__quote {
+    color: var(--grey-200);
+}
+
+.testimonial__jeanette {
+    background-color: var(--white);
+}
+
+.testimonial__jeanette .testimonial__title {
+    color: var(--grey-500);
+}
+
+.testimonial__jeanette .testimonial__name {
+    color: var(--grey-300);
+}
+
+.testimonial__jeanette .testimonial__status {
+    color: var(--grey-400);
+}
+
+.testimonial__jeanette .testimonial__quote {
+    color: var(--grey-400);
+}
+
+.testimonial__patrick {
+    background-color: var(--dark-blue);
+}
+
+.testimonial__patrick .testimonial__title {
+    color: var(--grey-200);
+}
+
+.testimonial__patrick .testimonial__name {
+    color: var(--grey-200);
+}
+
+.testimonial__patrick .testimonial__status {
+    color: var(--grey-400);
+}
+
+.testimonial__patrick .testimonial__quote {
+    color: var(--grey-400);
+}
+
+.testimonial__kira {
+    background-color: var(--white);
+}
+
+.testimonial__kira .testimonial__title {
+    color: var(--grey-500);
+}
+
+.testimonial__kira .testimonial__name {
+    color: var(--grey-300);
+}
+
+.testimonial__kira .testimonial__status {
+    color: var(--grey-400);
+}
+
+.testimonial__kira .testimonial__quote {
+    color: var(--grey-400);
 }
 
 /* Extra small devices (phones, 600px and down) */
