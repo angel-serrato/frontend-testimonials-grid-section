@@ -4,6 +4,7 @@ import jonathanImage from '../assets/image-jonathan.jpg'
 import jeanetteImage from '../assets/image-jeanette.jpg'
 import patrickImage from '../assets/image-patrick.jpg'
 import kiraImage from '../assets/image-kira.jpg'
+import QuoteIcon from '../assets/bg-pattern-quotation.svg'
 
 function Testimonials() {
     return (
