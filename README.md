@@ -1,41 +1,53 @@
-# Front-end Style Guide
+# Frontend Mentor - Testimonial Grid Section
 
-## Layout
+This is a solution to the [Testimonial Grid Section on Frontend Mentor](https://www.frontendmentor.io/challenges/testimonials-grid-section-Nnw6J7Un7). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
-The designs were created to the following widths:
+## Table of contents
 
-- Mobile: 375px
-- Desktop: 1440px
+- [Overview](#overview)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [Useful resources](#useful-resources)
+- [Author](#author)
+- [Acknowledgments](#acknowledgments)
 
-> 💡 These are just the design sizes. Ensure content is responsive and meets WCAG requirements by testing the full range of screen sizes from 320px to large screens.
+## Overview
 
-## Colors
+A visually engaging and fully responsive testimonial grid section. Showcases multiple user testimonials in a dynamic grid layout, combining vibrant colors, profile images, and personal feedback to create an authentic and modern design. Built with a mobile-first approach using CSS Grid and Flexbox to ensure seamless layout transitions and optimal readability across all screen sizes.
 
-### Primary
+### Screenshot
 
-- Purple 50: hsl(260, 100%, 95%)
-- Purple 300: hsl(264, 82%, 80%)
-- Purple 500: hsl(263, 55%, 52%)
 
-### Neutral
 
-- White: hsl(0, 0%, 100%)
-- Grey 100: hsl(214, 17%, 92%)
-- Grey 200: hsl(0, 0%, 81%)
-- Grey 400: hsl(224, 10%, 45%)
-- Grey 500: hsl(217, 19%, 35%)
-- Dark blue: hsl(219, 29%, 14%)
-- Black: hsl(0, 0%, 7%)
+### Links
 
-## Typography
+- Live Site URL: [Demo](https://frontend-testimonials-grid-section-lemon.vercel.app/)
 
-### Body Copy
+## My process
 
-- Font size: 13px
+### Built with
 
-### Font
+- React
+- Semantic HTML5 markup
+- CSS custom properties
+- Mobile-first workflow
+- Google Fonts
 
-- Family: [Barlow Semi Condensed](https://fonts.google.com/specimen/Barlow+Semi+Condensed)
-- Weights: 500, 600
+### Useful resources
 
-> 💎 [Upgrade to Pro](https://www.frontendmentor.io/pro?ref=style-guide) for design file access to see all design details and get hands-on experience using a professional workflow with tools like Figma.
+- [BEM Cheat Sheet](https://bem-cheat-sheet.9elements.com/) - A handy guide for naming CSS classes using the BEM (Block Element Modifier) methodology. It provides naming suggestions for common web components like cards, buttons, and forms, helping you maintain organized and scalable code.
+- [Squoosh.app](https://squoosh.app/) - A free, browser-based image compression tool developed by GoogleChromeLabs. Squoosh allows you to compress and compare images with different codecs directly in your browser, ensuring your images are optimized without compromising quality.
+- [Shots.so](https://shots.so/) - An online tool that enables you to create beautiful mockups quickly. Simply drag and drop your screenshots or designs, choose from various devices and backgrounds, and customize the appearance to suit your needs.
+- [Normalize.css](https://necolas.github.io/normalize.css/) A modern, HTML5-ready alternative to CSS resets. It aims to make browsers render all elements more consistently and in line with modern standards. Unlike CSS resets, Normalize.css preserves useful default styles, establishes base styles for common elements, corrects browser bugs, and enhances accessibility. It provides a consistent baseline for styling HTML elements across different devices and browsers.
+
+## Author
+
+- Website - [Serrato.dev](https://www.serrato.dev)
+- LinkedIn - [@angel-serrato](https://www.linkedin.com/in/angel-serrato/)
+- GitHub - [@angel-serrato](https://github.com/angel-serrato)
+
+## Acknowledgments
+
+Challenge by [Frontend Mentor](https://www.frontendmentor.io/). Thanks for the awesome practice projects!
